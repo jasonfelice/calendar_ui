@@ -5,24 +5,48 @@
         font-family: 'Roboto', sans-serif;
     }
 
+    .calendar_header {
+        box-shadow: 0 9px 10px -4px #0003;
+    }
+
     .calendar_wrapper {
         width: 650px;
         box-shadow: 0 0 5px #0003;
     }
 
     .inner_wrapper {
-        border: 1px solid red;
+
     }
 
     .c_item {
         padding: 10px;
     }
+
+    .calendar_table {
+        table-layout: fixed;
+    }
 </style>
 
 <!--Range Calendar Wrapper-->
-<div class="calendar_wrapper MnLtRtAo Pg10 BrRs5">
+<div class="calendar_wrapper MnLtRtAo BrRs5">
+    <!--Calender Header-->
+    <div class="calendar_header DyFx Gp20 Pg15">
+        <div class="date_from">
+            <p class="Mn0">
+                <i class="fa-regular fa-calendar"></i>
+                <span>1 May 2023</span>
+            </p>
+        </div>
+        <p class="Mn0">-</p>
+        <div calss="date_to">
+            <p class="Mn0">
+                <i class="fa-regular fa-calendar"></i>
+                <span>1 May 2023</span>
+            </p>
+        </div>
+    </div>
     <!--Inner Wrapper-->
-  <div class="inner_wrapper PnRe PgLtRt20 DyFx FxJyCtCr">
+  <div class="inner_wrapper PnRe Pg20 DyFx FxJyCtCr">
       <!--Main Left-->
       <div class="calendar_left">
           <div class="PnRe DyFx">
@@ -33,7 +57,7 @@
                 <span class="FtWt100">2023</span>
             </div>
           </div>
-          <table>
+            <table class="calendar_table Wh100p">
               <thead>
                   <tr>
                       <th>
@@ -107,7 +131,7 @@
             </div>
             <button class="PnAe PnRt0" type="button">></button>
           </div>
-            <table>
+            <table class="calendar_table Wh100p">
                 <thead>
                     <tr>
                         <th>

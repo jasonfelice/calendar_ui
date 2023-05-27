@@ -1503,6 +1503,7 @@ h6{font-size:var(--Pl12);}
 
 
     /*Margin All Side*/
+.Mn0{margin:0;}
 .MnAo{margin:auto !important;}
 .Mn2{margin:var(--Pl2) !important;}
 .Mn3{margin:var(--Pl3) !important;}
